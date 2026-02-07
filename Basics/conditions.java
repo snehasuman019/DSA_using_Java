@@ -15,6 +15,22 @@ public class conditions {
     }else{
         System.out.println("odd");
     }
+    System.out.println("Enter a: ");
+
+    int a = sc.nextInt();
+    System.out.println("Enter b: ");
+
+    int b = sc.nextInt();
+
+    if(a==b){
+        System.out.println("Equal");
+    }else{
+        if(a>b){
+            System.out.println("a is greater");
+        }else{
+            System.out.println("a is lesser");
+        }
+    }
     }
     
 }
