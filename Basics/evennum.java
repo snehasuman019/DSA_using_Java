@@ -1,6 +1,7 @@
 import java .util.*;
 public class evennum {
     public static void main(String[] args) {
+        /*/
         // int n;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter n: ");
@@ -10,6 +11,17 @@ public class evennum {
             System.out.println(i+ " ");
         }
 
+
+    //     for(; ;){
+    //         System.out.println("Apna College");
+    //     }
+    // }    it will print infinite loop 
+    */
+   int n =25;
+   for(int i=1; i<=n; i++){
+    if(i% 2 == 0){
+        System.out.println(i);
     }
-    
+   }
+}
 }
