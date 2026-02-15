@@ -1,6 +1,6 @@
 import java.util.*;
 public class sum {
-    public static void printSum(int sum){
+    public static void calculateNum(int sum){
         System.out.println(sum);
         return;
 
@@ -10,6 +10,8 @@ public class sum {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int sum = a + b;
-        printSum(sum);
+        int d = a * b;
+        calculateNum(sum);
+        System.out.println(d);
     }
 }
