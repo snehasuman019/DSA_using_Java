@@ -1,3 +1,5 @@
+// sum and multiplication of a number
+
 import java.util.*;
 public class sum {
     public static void calculateNum(int sum){
