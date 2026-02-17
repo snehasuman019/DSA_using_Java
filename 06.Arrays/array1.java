@@ -7,5 +7,7 @@ public class array1 {
         marks[1] = 92;
         marks[2] = 80;
         System.out.println(marks[1]);
+        System.out.println(marks[0]);
+        System.out.println(marks[2]);
     }
 }
