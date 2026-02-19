@@ -1,4 +1,8 @@
+///Prime Number
+//  Check Armstrong Number
+// Print All 3 Digit Armstrong Numbers
 
+// 
 import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
