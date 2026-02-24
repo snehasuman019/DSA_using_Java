@@ -3,4 +3,17 @@
 3. DMA 
 4.  datatype ref variable (Compile time) = new (creating the object in heap => runtime)
      int[] arr = new int[5];
-                  new(used to create an object). 
+                   new(used to create an object). 
+
+
+
+
+
+
+ArrayList 
+     1. Size is fixed internally .
+     2. Say arraylist fills by same amount .
+        -> It will create a new arraylist of double the size (new empty list is created)
+        -> old elements are copied in new one. 
+        -> old one is deleted.
+        
