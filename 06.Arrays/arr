@@ -1,0 +1,6 @@
+1. array objects are stored in heap/
+2. Heap objects are not continuous .  Hence, array object in java may not be continuous . (IT depends on JVM)
+3. DMA 
+4.  datatype ref variable (Compile time) = new (creating the object in heap => runtime)
+     int[] arr = new int[5];
+                  new(used to create an object). 
