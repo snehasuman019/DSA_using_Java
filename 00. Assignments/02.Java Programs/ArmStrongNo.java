@@ -8,7 +8,9 @@ public class ArmStrongNo {
         int start = sc.nextInt();
         System.out.println("Enter end number : ");
         int end = sc.nextInt();
+
         System.out.println("Armstronng numbers between " + start + " and " + end + " are : ");
+        
         for(int num = start ; num <= end; num++){
             int digits = String.valueOf(num).length();
             int sum =0, temp = num;
