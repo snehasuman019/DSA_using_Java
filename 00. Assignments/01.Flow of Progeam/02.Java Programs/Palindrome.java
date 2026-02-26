@@ -10,7 +10,7 @@ public class Palindrome {
         if(str.equals(reversed)){
             System.out.println(str + " is a palindrome.");
         }else{
-            System.out.println(str + "is not a palindrome.");
+            System.out.println(str + " is not a palindrome.");
         }
 
     }
