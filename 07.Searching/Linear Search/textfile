@@ -1,0 +1,21 @@
+LINEAR SEARCH 
+
+if no value found , return -1;
+time complexity : 
+Best Case O(1) // constant 
+Worst Case O(N)  //N ->size of array
+Average Case O(N) //N ->size of array
+
+100 -> 100 ms
+200 -> 200 ms
+1000 -> 1000 ms
+
+Linear search is a simple searching algorithm that checks each element in a list sequentially until the desired element is found or the end of the list is reached. It is not the most efficient searching algorithm for large datasets, but it can be useful for small lists or when the data is unsorted.
+
+    For worst case scenarios, where the desired element is not present in the list or is located at the end of the list, the time complexity is O(N) because it requires checking each element once. In the best case scenario, where the desired element is found at the beginning of the list, the time complexity is O(1) because it only requires one comparison. On average, the time complexity is O(N) because it may require checking about half of the elements in the list before finding the desired element or determining that it is not present.
+
+    -> The graph is linear for worst case . 
+
+For the best case , it is constant.
+    It has a constant time complexity because it only requires one comparison to find the desired element at the beginning of the list.
+
