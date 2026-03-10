@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(SearchInStrings[] args) {
         int[] nums = {23, 45, 1, 2, 8, 19, -3, 16,-11, 28};
         int target = 19;
         // int ans = linearSearch2(nums, target);
