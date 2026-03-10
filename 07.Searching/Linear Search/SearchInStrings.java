@@ -4,7 +4,6 @@ public class SearchInStrings {
         char target = 'n';
         System.out.println(search(name, target));  
     }
-
     static boolean search(String str, char target) {
         if (str.length() == 0) {
             return false;
