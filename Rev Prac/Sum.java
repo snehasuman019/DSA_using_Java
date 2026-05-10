@@ -11,6 +11,7 @@ public class Sum {
             sum+=i;
         }
         System.out.println("Sum of numbers from 1 to " + n + " is: " + sum);
+        
 
     }
 }
